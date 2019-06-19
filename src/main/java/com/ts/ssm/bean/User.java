@@ -14,7 +14,7 @@ public class User {
     public User() {
     }
 
-    public User( String userName, String sex, Integer age, Date date) {
+    public User(String userName, String sex, Integer age, Date date) {
         this.userName = userName;
         this.sex = sex;
         this.age = age;

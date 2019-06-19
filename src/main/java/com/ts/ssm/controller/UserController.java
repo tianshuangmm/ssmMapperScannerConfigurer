@@ -15,9 +15,9 @@ public class UserController {
     @RequestMapping(value = "/info")
     @ResponseBody
     public User getUserById(Integer id) {
-        User user=userService.getUserById(id);
-        if(user!=null)
-        System.out.println(user.getUserName());
+        User user = userService.getUserById(id);
+        if (user != null)
+            System.out.println(user.getUserName());
         return user;
     }
 
